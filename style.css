@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background: hsl(225, 100%, 94%);
+}
+
+.card {
+  background: #fff;
+  max-width: 375px;
+  margin: 50px auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card-inner {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-inner p {
+  margin-bottom: 15px;
+}
+
+.annual-plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  margin-bottom: 22px;
+}
+
+.annual-plan img {
+  display: inline-block;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.text {
+}
+
+.btn {
+  display: block;
+  color: #fff;
+  background: hsl(245, 75%, 52%);
+  padding: 10px 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  transition: background 0.3s ease-in;
+}
+
+.btn:hover {
+  background: hsl(224, 23%, 55%);
+}
+
+.link {
+  color: gray;
+}
+
+.link:hover {
+  color: hsl(223, 47%, 23%);
+}
